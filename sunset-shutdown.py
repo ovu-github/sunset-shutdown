@@ -20,8 +20,7 @@ while True:
     now = pd.to_datetime('today')
     print(f"now is :[{now}], sunset is: [{sunset_datetime}]")
     if now > sunset_datetime:
-        try:
-            os.system('systemctl poweroff') 
-            os.system("shutdown /s /t 1")
+        os.system('systemctl poweroff') 
+        os.system("shutdown /s /t 1")
     time.sleep(60.0 - ((time.time() - starttime) % 60.0))
 
