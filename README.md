@@ -1,2 +1,2 @@
-# sunset-shutdown
-Shuts down your pc when the sun sets, time to sleep and stop artificial light!
+# sunset_shutdown
+Shuts down my pc when the sun goes down, to better align to the body with the circadian rhythm
