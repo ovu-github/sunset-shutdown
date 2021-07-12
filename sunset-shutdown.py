@@ -4,8 +4,8 @@ import time
 import requests
 import pandas as pd
 
-country = input('Which country are you in?').lower()
-city = input('Which city are you in?').lower()
+country = input('Which country are you in? ').lower()
+city = input('Which city are you in? ').lower()
 
 page = requests.get('https://www.timeanddate.com/sun/' + country + '/' + city)
 
